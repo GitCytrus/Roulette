@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russian Roulette</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Russian Roulette</h1>
+    <div id="menu">
+        <div id="terminal" class="section">
+            <h3>Game History</h3>
+            <div id="history"></div>
+            <div id="actions">
+                <button id="start-game">Start Game</button>
+                <button id="clear-history">Clear</button>
+                <button id="shoot" style="display: none;">Shoot</button>
+                <button id="pass" style="display: none;">Pass the Gun</button>
+            </div>
+        </div>
+        <div id="game-container" class="section">
+            <div id="player1" class="player">
+                <h2 id="player1-name">You</h2>
+                <img src="player1.png" alt="You">
+            </div>
+            <div id="player2" class="player">
+                <h2 id="player2-name">Opponent</h2>
+                <img src="player2.png" alt="Opponent">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

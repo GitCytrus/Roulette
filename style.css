@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#menu {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.section {
+    padding: 10px;
+}
+
+#terminal {
+    width: 40%;
+    border-right: 2px solid #444;
+}
+
+#history {
+    height: 300px;
+    overflow-y: auto;
+    background: #222;
+    padding: 10px;
+}
+
+#history p {
+    margin: 5px 0;
+}
+
+#history p.player {
+    color: #7db1ff; /* Jaśniejszy niebieski */
+}
+
+#history p.opponent {
+    color: #ff7d7d; /* Jaśniejszy czerwony */
+}
+
+#history p.special {
+    color: #ffd700; /* Złoty */
+}
+
+#actions {
+    margin-top: 20px;
+}
+
+button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #444;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#game-container {
+    width: 60%;
+    text-align: center;
+    position: relative;
+}
+
+.player {
+    margin: 20px 0;
+    position: relative;
+}
+
+.player img {
+    width: 80px;
+    height: auto;
+}
+
+#player1-name,
+#player2-name {
+    transition: all 0.5s ease;
+}
+
+.highlight {
+    color: #ffd700; /* Złoty kolor na wyróżnienie */
+    font-weight: bold;
+}
